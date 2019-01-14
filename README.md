@@ -1,4 +1,7 @@
-# bogota_bici_maps
+# IBM Data Science Professional Certificate Capstone Project
+# Where to Put Bike Sharing Stations in Bogota
+
+## 1. Introduction
 Bogota is ranked as the fifth most traffic congested city of the world. It takes the first place among South American capitals. According to the Global Traffic Scorecard of INRIX (2018), a Bogota citizen loses 75 hours a year in traffic jams. In fact, most Latin American cities have to deal with a rapid and unplanned urban growth which represents a major challenge in mobility and traffic dynamics.
 
 Given this panorama, the promotion of the bicycle as a daily and safe mode of transport has become a common objective within the policies of sustainability and equity in large cities. The use of the bicycle not only reduces carbon emissions within big cities, it also helps to alleviate traffic congestion, decreases travel times, and favors people's health and wellbeing.
@@ -7,11 +10,11 @@ Nevertheless, Bogota is famous across the world for being a bike friendly city. 
 
 I think that a bike-borrowing system would be appropriate for a city like Bogota in order to answer this question. This solution also deals with other concerns among citizens which include vandalism, parking or storage, and maintenance. 
 
-But then again another question arises and this is which would be the ideal locations to put bike-sharing points within the city?
+But then again another question arises and this is **which would be the ideal locations to put bike-sharing points within the city?**
 
-DATA
+## 2. Data
 
-Bogota is divided in 112 Units of Zonal Planning (UPZ in Spanish), each one pertaining to one of the 20 total existing boroughs. For this case I used only 3 of the 20 boroughs with their corresponding UPZs, where most of the cultural life and commercial activity of the city takes place. These are Chapinero, Teusaquillo and Barrios Unidos.
+Bogota is divided in 112 Units of Zonal Planning (UPZ in Spanish), each one pertaining to one of the 20 total existing boroughs. For this case I used only 3 of the 20 boroughs with their corresponding UPZs, where most of the cultural life and commercial activity of the city takes place. These are **Chapinero**, **Teusaquillo** and **Barrios Unidos**.
 
 I used beautiful soup to scrape this Wikipedia page https://es.wikipedia.org/wiki/Unidades_de_Planeamiento_Zonal and get a dataframe that included each UPZ’s location and the borough to which it belonged.
 
